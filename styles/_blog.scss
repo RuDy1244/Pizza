@@ -1,0 +1,43 @@
+.blog__title {
+    width: 50%;
+    margin: 80px auto;
+
+    h1 {
+        color: white;
+        font-family: $josefin;
+        font-size: 1.9em;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $grey;
+    }
+
+
+}
+
+.blog__item {
+    margin-bottom: 50px;
+
+    h2 {
+        font-size: 1.125em;
+        color: white;
+        font-family: $josefin;
+    }
+
+    p {
+        color: $grey;
+        font-size: 0.9em;
+    }
+
+    .blog__item__img {
+        height: 270px;
+    }
+
+    .blog__item__date {
+        img{
+            width: 12px;
+            height: 12px;
+        }
+    }
+}

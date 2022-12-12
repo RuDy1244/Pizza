@@ -1,0 +1,67 @@
+.homepage_menu {
+    min-height: 600px !important;
+
+    .homepage_menu__img {
+        min-height: 300px;
+        background-image: url(../img/about.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    button {
+        cursor: pointer;
+        width: auto;
+        height: 55px;
+        font-size: 1.12em;
+        // font-style: #poppins;
+        border: 1px solid $orange;
+        background-color: transparent;
+        color: $orange;
+        padding: 10px;
+
+        &:hover {
+            color: black;
+            background-color: $orange;
+        }
+    }
+
+    .homepage_menu__item {
+        justify-items: center;
+
+        img {
+            width: 70%;
+            border-radius: 50%;
+
+        }
+
+        h5 {
+            font-size: 1.4em;
+            color: white;
+            font-family: $josefin;
+        }
+
+        .home_menu__item__description {
+            color: $grey;
+        }
+
+        .home_menu__item__price {
+            color: $orange;
+
+        }
+
+        button {
+            width: 100px;
+            height: 35px;
+            color: white;
+            border-color: white;
+            font-size: 0.81em;
+            margin-bottom: 20px;
+
+            &:hover {
+                color: black;
+                border-color: $orange;
+                background-color: $orange;
+            }
+        }
+    }
+}

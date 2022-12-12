@@ -1,0 +1,117 @@
+.menu__title,
+.menu__pricing__title {
+    width: 50%;
+    margin: 80px auto;
+
+    h1 {
+        color: white;
+        font-family: $josefin;
+        font-size: 1.9em;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $grey;
+    }
+
+
+}
+
+.menu__gallery {
+
+    .menu__gallery__block {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+
+        img {
+            width: 100%;
+        }
+    }
+
+
+
+    h2 {
+        font-size: 1.3em;
+        color: white;
+        font-family: $josefin;
+    }
+
+    p {
+        color: $grey;
+    }
+
+    .price {
+        color: $orange;
+    }
+
+    button {
+        width: 60px;
+        height: 35px;
+        color: white;
+        border: 1px solid white;
+        font-size: 0.81em;
+        margin-bottom: 20px;
+        background-color: transparent;
+
+        &:hover {
+            color: black;
+            border-color: $orange;
+            background-color: $orange;
+        }
+    }
+}
+
+.menu__pricing__title {
+    .line {
+        width: 40px;
+        height: 1px;
+        background-color: $orange;
+        margin: 0 8px;
+    }
+
+    .square-small {
+        width: 8px;
+        height: 8px;
+        background-color: $orange;
+    }
+
+    .square-big {
+        width: 12px;
+        height: 12px;
+        background-color: $orange;
+    }
+
+    .square-big,
+    square-small {
+        transform: rotateZ(45deg);
+        margin: 0 4px;
+    }
+}
+
+.menu__pricing__table {
+    h3 {
+        color: white;
+        font-family: $josefin;
+        border-bottom: 1px dashed $orange;
+        width: 90%;
+        font-size: 1.125em;
+    }
+
+    .price {
+        color: $orange;
+    }
+
+    p {
+        color: $grey;
+        font-size: 0.95em;
+    }
+
+    .menu__pricing__table__pizza {
+        img {
+            border-radius: 50%;
+            width: 60px;
+            margin-right: 16px;
+        }
+    }
+}

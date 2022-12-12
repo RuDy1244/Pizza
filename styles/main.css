@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    padding-top: 71px;
+    background-image:url(/img/bg_4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li {
+    list-style: none;
+}
+
+header .navbar-brand {
+    width: 90px;
+}
+header .navbar-brand h1 {
+    font-size: 1.2em;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+header .navbar-brand img {
+    width: 24px;
+    height: 24px;    
+}
+header .navbar-brand p {
+    font-size: 11px;
+    color: #fac564;
+    font-family: "Josefin Sans", sans-serif;
+    letter-spacing: 4px;
+}
+header .nav-link:hover {
+    color: #fac564;
+}
+header li {
+    min-width: 85px;
+    font-size: 0.875em;
+}
+
+.carousel #slide1,
+.carousel #slide2 {
+    min-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg_1.jpg);
+    background-size: cover;
+}
+.carousel #slide3 {
+    min-height: 691px;
+    max-height: 706px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/bg_3.jpg);
+    background-size: cover;
+}
+.carousel #slide3 .row {
+    margin-top: 15rem;
+}
+.carousel p:first-of-type {
+    font-family: "Nothing You Could Do", cursive;
+    color: #fac564;
+    font-size: 1.5em;
+}
+.carousel h5 {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    text-align: center;
+}
+.carousel p:last-of-type {
+    color: white;
+}
+.carousel .button {
+    cursor: pointer;
+    width: 120px;
+    height: 55px;
+    font-size: 0.82em;
+    border: 1px solid;
+}
+.carousel .button__order {
+    background-color: #fac564;
+    color: black;
+    border-color: #fac564;
+    transition: 0.5s;
+}
+.carousel .button__order:hover {
+    background-color: transparent;
+    color: #fac564;
+}
+.carousel .button__view {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    transition: 0.5s;
+}
+.carousel .button__view:hover {
+    background-color: #fac564;
+    color: black;
+    border-color: #fac564;
+}
+.carousel #slide2 .row {
+    flex-direction: row-reverse;
+}
+
+.benefits {
+    min-height: 230px !important;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/bg_2.jpg);
+    background-size: cover;
+}
+.benefits .benefits__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.benefits .benefits-box {
+    margin-top: 65px;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #fac564;
+    padding: 12px;
+}
+.benefits .benefits_item__number {
+    color: #fac564;
+    font-size: 1.9rem;
+}
+.benefits .benefits_item__description {
+    color: #808080;
+    font-size: 0.88rem;
+}
+
+.homepage_menu {
+    min-height: 600px !important;
+}
+.homepage_menu .homepage_menu__img {
+    min-height: 300px;
+    background-image: url(/img/about.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.homepage_menu button {
+    cursor: pointer;
+    width: auto;
+    height: 55px;
+    font-size: 1.12em;
+    border: 1px solid #fac564;
+    background-color: transparent;
+    color: #fac564;
+    padding: 10px;
+}
+.homepage_menu button:hover {
+    color: black;
+    background-color: #fac564;
+}
+.homepage_menu .homepage_menu__item {
+    justify-items: center;
+}
+.homepage_menu .homepage_menu__item img {
+    width: 70%;
+    border-radius: 50%;
+}
+.homepage_menu .homepage_menu__item h5 {
+    font-size: 1.4em;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.homepage_menu .homepage_menu__item .home_menu__item__description {
+    color: #808080;
+}
+.homepage_menu .homepage_menu__item .home_menu__item__price {
+    color: #fac564;
+}
+.homepage_menu .homepage_menu__item button {
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-color: white;
+    font-size: 0.81em;
+    margin-bottom: 20px;
+}
+.homepage_menu .homepage_menu__item button:hover {
+    color: black;
+    border-color: #fac564;
+    background-color: #fac564;
+}
+
+footer {
+    background-color: black;
+    min-height: 300px;
+    padding: 100px 0;
+    color: #808080;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+footer h6 {
+    margin-bottom: 40px;
+    color: white;
+}
+footer .social div {
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 50%;
+}
+FOOTER .SOCIAL IMG {
+    width: 60%;
+}
+footer .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+footer .footer__blog__item {
+    height: auto;
+}
+footer .footer__blog__item p {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+footer .footer__blog__item img {
+    object-fit: contain;
+    margin-right: 20px;
+}
+footer .footer__blog__item li {
+    font-size: 0.75em;
+}
+footer .footer__blog__item li img {
+    width: 11px;
+    margin-right: 5px;
+}
+footer .footer__questions li {
+    display: flex;
+}
+footer .footer__questions li img {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.menu__title,
+.menu__pricing__title {
+    width: 50%;
+    margin: 80px auto;
+}
+.menu__yiyle h1,
+.menu__pricing__title h1 {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.9em;
+    margin-bottom: 25px;
+}
+.menu__title p,
+.menu__pricing__title p {
+    color:#808080;
+}
+
+.menu__gallery .menu__gallery__block {
+    display: grid;
+    grid-template-rows:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+.menu__gallery .menu__gallery__block img {
+    width: 100%;
+}
+.menu__gallery h2 {
+    font-size: 1.3em;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.menu__gallery p {
+    color: #808080;
+}
+.menu__gallery .price {
+    color: #fac564;
+}
+.menu__gallery button {
+    width: 60px;
+    height: 35px;
+    color: white;
+    border: 1px solid white;
+    font-size: 0.81em;
+    margin-bottom: 20px;
+    background-color: transparent;
+}
+.menu__gallery button:hover {
+    color: black;
+    border-color: #fac564;
+    background-color: #fac564;
+}
+
+.menu__pricing__title .line {
+    width: 40px;
+    height: 1px;
+    background-color: #fac564;
+    margin: 0 8px;
+}
+.menu__pricing__title .square-small {
+    width: 8px;
+    height: 8px;
+    background-color: #fac564;
+}
+.menu__pricing__title .square-big {
+    width: 12px;
+    height: 12px;
+    background-color: #fac564;
+}
+.menu__pricing__title .square-big,
+.menu__pricing__title .square-small {
+    transform: rotateZ(45deg);
+    margin: 0 4px;
+}
+
+.menu__pricing__table h3 {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    border-bottom: 1px dashed #fac564;
+    width: 90%;
+    font-size: 1.125em;
+}
+.menu__pricing__table .price {
+    color:#fac564;
+}
+.menu__pricing__table p {
+    color: #808080;
+    font-size: 0.95em;
+}
+.menu__pricing__table .menu__pricing__table__pizza img {
+    border-radius: 50%;
+    width: 60px;
+    margin-right: 16px;
+}
+
+.services {
+    background-image: url(/img/food.png);
+    height: auto;
+    background-attachment: fixed;
+}
+.services h1 {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.9em;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+.services p {
+    color: #5c3d03;
+    width: 60%;
+    margin-bottom: 70px;
+}
+
+.services__item .services-box {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #e19812;
+    padding: 12px;
+    margin-bottom: 30px;
+}
+.services__item h2 {
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.125em;
+}
+.services__item .service__description {
+    color: #5c3d03;
+    font-size: 0.8em;
+    width: 100%;
+}
+
+.blog__title {
+    width: 50%;
+    margin: 80px auto;
+}
+.blog__title h1 {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.9em;
+    margin-bottom: 25px;
+}
+.blog__title p {
+    color: #808080;
+}
+
+.blog__item {
+    margin-bottom: 50px;
+}
+.blog__item h2 {
+    font-size: 1.125em;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+}
+.blog__item p {
+    color: #808080;
+    font-size: 0.9em;
+}
+.blog__item .blog__item__img {
+    height: 270px;
+}
+.blog__item .blog__item__date img {
+    width: 12px;
+    height: 12px;
+}
+
+.features {
+    background-color: black;
+    height: auto;
+}
+.features .features__items {
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+@media (min-width: 1200px) {
+    .features .features__items {
+        padding-left: 160px;
+    }
+}
+.features .features__item {
+    padding-left: 30px;
+}
+@media (min-width: 1200px) {
+    .features .features__item {
+        padding: 0;
+    }
+}
+.features .features__item img {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+.features .features__item h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    font-size: 1em;
+}
+features .features__item p {
+    color: #808080;
+    font-size: 0.95em;
+ }
+ .features .features__social {
+    background-color: #fac564;
+    min-height: 100px;
+ }
+ .features .features__social img {
+    width: 30px;
+ }
+
+ video {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+ }
+
+ article h3 {
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.9em;
+ }
+ article h3 span {
+    color: #fac564;
+ }
+ article h3 span:before {
+    content: "";
+    background-image: url(../img/pizza_orange.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: relative;
+ }
+ article p {
+    color: #808080;
+ }
+
+ .contact {
+    color: white;
+    background-color: black;
+ }
+ .contact h2 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 30px;
+ }
+ .contact .form-group {
+    height: 55px;
+    color: white;
+    border-bottom: 1px solid #808080;
+    margin-bottom: 20px;
+ }
+ .contact .form-group:last-of-type {
+    height: 80px;
+ }
+ .contact textarea {
+    height: auto;
+ }
+ .contact input,
+ .contact textarea {
+    width: 100%;
+    border-width: 0;
+    background-color: black;
+    color: #fac564;
+    margin-bottom: 10px;
+ }
+ .contact input::placeholder,
+ .contact textarea::placeholder {
+    color: white;
+ }
+ .contact input:focus-visible,
+ .contact textarea:focus-visible {
+    outline-width: 0;
+ }
+ .contact .invalid::placeholder {
+    color: red;
+ }
+ .contact button {
+    background-color: #fac564;
+    color: black;
+    border-color: #fac564;
+    transition: 0.5s;
+    width: 100px;
+    height: 60px;
+ }
+ .contact button:hover {
+    background-color: transparent;
+    color: #fac564;
+ }
+
+ /*# sourceMappingURL=main.css.map */

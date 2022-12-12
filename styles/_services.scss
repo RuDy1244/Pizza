@@ -1,0 +1,43 @@
+.services {
+    background-image: url(../img/food.png);
+    height: auto;
+    background-attachment: fixed;
+
+    h1 {
+        color: black;
+        font-family: $josefin;
+        font-size: 1.9em;
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+
+    p {
+        color: $brown;
+        width: 60%;
+        margin-bottom: 70px;
+    }
+}
+
+.services__item {
+
+    .services-box {
+        width: 80px;
+        height: 80px;
+        border: 2px solid #e19812;
+        padding: 12px;
+        margin-bottom: 30px;
+    }
+
+    h2 {
+        color: black;
+        font-family: $josefin;
+        font-size: 1.125em;
+    }
+
+    .service__description {
+        color: $brown;
+        font-size: 0.8em;
+        width: 100%;
+    }
+
+}

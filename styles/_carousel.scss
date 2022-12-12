@@ -1,0 +1,75 @@
+.carousel {
+
+    #slide1,
+    #slide2 {
+        min-height: 500px;
+        background-image: linear-gradient(rgba(black, 0.4), rgba(black, 0.4)), url(../img/bg_1.jpg);
+        background-size: cover;
+    }
+
+    #slide3 {
+        min-height: 691px;
+        max-height: 706px;
+        background-image: linear-gradient(rgba(black, 0.4), rgba(black, 0.4)), url(../img/bg_3.jpg);
+        background-size: cover;
+
+        .row {
+            margin-top: 15rem;
+        }
+    }
+
+    p:first-of-type {
+        font-family: $nothing;
+        color: $orange;
+        font-size: 1.5em;
+    }
+
+    h5 {
+        font-family: $josefin;
+        color: white;
+        text-align: center;
+    }
+
+    p:last-of-type {
+        color: white;
+    }
+
+    .button {
+        cursor: pointer;
+        width: 120px;
+        height: 55px;
+        font-size: 0.82em;
+        border: 1px solid;
+    }
+
+    .button__order {
+        background-color: $orange;
+        color: black;
+        border-color: $orange;
+        transition: .5s;
+
+        &:hover {
+            background-color: transparent;
+            color: $orange;
+        }
+    }
+
+    .button__view {
+        background-color: transparent;
+        color: white;
+        border-color: white;
+        transition: .5s;
+
+        &:hover {
+            background-color: $orange;
+            color: black;
+            border-color: $orange;
+        }
+    }
+
+    #slide2 {
+        .row {
+            flex-direction: row-reverse;
+        }
+    }
+}

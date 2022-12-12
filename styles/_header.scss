@@ -1,0 +1,32 @@
+header {
+    .navbar-brand {
+        width: 90px;
+
+        h1 {
+            font-size: 1.2em;
+            font-family: $josefin;
+            color: white;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+
+        p {
+            font-size: 11px;
+            color: $orange;
+            font-family: $josefin;
+            letter-spacing: 4px;
+        }
+    }
+
+    .nav-link:hover {
+        color: $orange;
+    }
+
+    li {
+        min-width: 85px;
+        font-size: .875em;
+    }
+}

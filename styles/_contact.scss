@@ -1,0 +1,62 @@
+.contact {
+    color: white;
+    background-color: black;
+
+    h2 {
+        font-family: $josefin;
+        font-size: 1.8em;
+        margin-bottom: 30px;
+    }
+
+    .form-group {
+        height: 55px;
+        color: white;
+        border-bottom: 1px losid $grey;
+        margin-bottom: 20px;
+
+        &:last-of-type {
+            height: 80px;
+        }
+    }
+
+    textarea {
+        height: auto;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        border-width: 0;
+        background-color: black;
+        color: $orange;
+        margin-bottom: 10px;
+
+        &::placeholder {
+            color: white;
+        }
+
+        &:focus-visible {
+            outline-width: 0;
+        }
+    }
+
+    .invalid {
+        &::placeholder {
+            color: red;
+        }
+    }
+
+    button {
+        background-color: $orange;
+        color: black;
+        border-color: $orange;
+        transition: .5s;
+        width: 100px;
+        height: 60px;
+
+        &:hover {
+            background-color: transparent;
+            color: $orange;
+        }
+    }
+}
